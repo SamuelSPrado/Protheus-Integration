@@ -2,3 +2,5 @@
 .idea
 .env
 invoiceOrderId.txt
+OrdersWithoutInvoice.txt
+__pycache__/

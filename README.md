@@ -33,11 +33,16 @@ Centralizar ferramentas de execução técnica para:
 
 ## Consoles disponíveis
 
-| Console | Descrição |
-|------|--------
-| protheus_send | Reenvio de pedidos para o Protheus via API Meep |
+- protheus-send  
+  Reenvio de pedidos para integração com Protheus.
 
-A documentação detalhada de cada console encontra-se na pasta `docs`.
+- meep-start-on-order-created  
+  Reprocessamento do evento StartOnOrderCreated no Meep
+  para pedidos sem nota.
+  
+Todos os consoles são executados através do arquivo:
+
+console_manager.py
 
 ---
 
