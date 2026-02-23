@@ -1,6 +1,7 @@
 .idea/
 .idea
 .env
+output/
 input/invoiceOrderId.txt
 input/OrdersWithoutInvoice.txt
 input/access_keys.txt

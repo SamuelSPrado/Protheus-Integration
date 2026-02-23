@@ -12,7 +12,7 @@ class PedidoProcessor:
 
     def __init__(
         self,
-        input_file: str = "invoiceOrderId.txt",
+        input_file: str = "input/invoiceOrderId.txt",
         sleep_seconds: float = 2.0,
         timeout: int = 30
     ):

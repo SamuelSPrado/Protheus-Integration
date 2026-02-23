@@ -11,7 +11,7 @@ class StartOnOrderCreatedProcessor:
 
     def __init__(
         self,
-        input_file: str = "OrdersWithoutInvoice.txt",
+        input_file: str = "input/OrdersWithoutInvoice.txt",
         sleep_seconds: float = 5.0,
         timeout: int = 30
     ):

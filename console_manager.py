@@ -3,11 +3,13 @@ import sys
 
 from consoles.protheus_send import run as protheus_send_run
 from consoles.meep_start_on_order_created import run as meep_start_on_order_created_run
+from consoles.invoice_analyzer_sqlserver import run as invoice_analyzer_sqlserver_run
 
 
 CONSOLES = {
     "protheus-send": protheus_send_run,
     "meep-start-on-order-created": meep_start_on_order_created_run,
+    "invoice-analyzer-sqlserver": invoice_analyzer_sqlserver_run,
 }
 
 
