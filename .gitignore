@@ -1,6 +1,8 @@
 .idea/
 .idea
 .env
-invoiceOrderId.txt
-OrdersWithoutInvoice.txt
+input/invoiceOrderId.txt
+input/OrdersWithoutInvoice.txt
+input/access_keys.txt
+output/invoice_analysis_result.txt
 __pycache__/
